@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Aritmatika</title>
+</head>
+<body>
+    <script>
+
+        // penjumlahan menggunakan +
+        let result = 1 + 2;
+        document.writeln("<p>1 + 2 = " + result + "</p>");
+        let originalResult = result; // hasil 3
+
+        // pengurangan menggunakan -
+        result -= 2; // hasil 1
+        document.writeln("<p>" + originalResult + " - 2 = " + result + "</p>");
+
+        // perkalian menggunakan *
+        result = originalResult * 2;
+        document.writeln("<p>" + originalResult + " x 2 = " + result + "</p>");
+        let multiplicationResult = result; // hasil 6
+
+        // perpangkatan menggunakan **
+        result = result ** 2;
+        document.writeln("<p>Pangkat dari " + multiplicationResult + "^2 adalah " + result + "</p>");
+        let exponencialResult = result; // hasil 36
+        
+        // pembagian menggunakan slash
+        result = exponencialResult / 2;
+        document.writeln("<p>"+ exponencialResult +" : 2 = "+ result +"</p>");
+        let divisionResult = result; // hasil 18
+
+        // sisa bagi menggunakan %
+        result = divisionResult % 7;
+        document.writeln("<p>sisa bagi dari "+ divisionResult +" dibagi 7 adalah "+ result +"</p>");
+
+
+    </script>
+</body>
+</html>
