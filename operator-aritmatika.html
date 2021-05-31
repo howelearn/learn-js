@@ -25,7 +25,17 @@
 
         // perpangkatan menggunakan **
         result = result ** 2;
-        document.writeln("<p>Pangkat dari " + multiplicationResult + " adalah " + result + "</p>");
+        document.writeln("<p>Pangkat dari " + multiplicationResult + "^2 adalah " + result + "</p>");
+        let exponencialResult = result; // hasil 36
+        
+        // pembagian menggunakan slash
+        result = exponencialResult / 2;
+        document.writeln("<p>"+ exponencialResult +" : 2 = "+ result +"</p>");
+        let divisionResult = result; // hasil 18
+
+        // sisa bagi menggunakan %
+        result = divisionResult % 7;
+        document.writeln("<p>sisa bagi dari "+ divisionResult +" dibagi 7 adalah "+ result +"</p>");
 
 
     </script>
