@@ -23,6 +23,19 @@
         const total = a.toString() + b.toString();
         document.writeln(`<p>${total}</p>`); // hasilnya 11
 
-    </script>
+        document.writeln(`<p>${parseInt("1salah")}</p>`); // hasilnya 1
+        document.writeln(`<p>${parseFloat("1.1aja")}</p>`); // hasilnya 1.1
+
+        document.writeln(`<p>${Number("1.1salah")}</p>`); // NaN
+        document.writeln(`<p>${Number("1.6aja")}</p>`); // NaN
+
+        const first = Number("salah"); //NaN
+        const totalNumber = first + 100;
+        document.writeln(`<p>${totalNumber}</p>`); // NaN
+
+        // pengecekan apakah Number atau bukan
+        document.writeln(`<p>${isNaN(fisrt)}</p>`); // NaN
+
+</script>
 </body>
 </html>
